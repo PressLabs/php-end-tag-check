@@ -1,5 +1,7 @@
 # php-end-tag-check
 
-This plugin checks for php end tag "?>" at the end of plugins and themes files and alert user to remove it. The end tag "?>" are causes of many problems like SEO ranking or browser rendering page. Some usefull article about this topic you can find [here](http://hardcorewp.com/2013/always-omit-closing-php-tags-in-wordpress-plugins/).
+This plugin checks for php end tag `?>` at the end of plugin and theme files, and alerts users to remove it. The `?>` end tags can cause many problems like poor SEO ranking or bad page rendering.
 
-Also wordpress [rules](http://www.php-fig.org/psr/psr-2/) recommend to not close the php end tag.
+You can read more about this issue in [this article](http://hardcorewp.com/2013/always-omit-closing-php-tags-in-wordpress-plugins/).
+
+[WordPress rules](http://www.php-fig.org/psr/psr-2/) also state that the php tag must not be close.
