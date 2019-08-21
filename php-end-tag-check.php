@@ -5,7 +5,7 @@
 *Author: Presslabs
 *Version: 1.0
 *
-* Description: This plugin searche every main php file from plugins and themes and check whether the file has the php end tag "?>" at the end.
+* Description: This plugin scans every plugin and theme main PHP file whether the file has the PHP end tag "?>" at the end.
 *
 ***/
 
